@@ -4,6 +4,20 @@
 [![Coverage Status](https://codecov.io/gh/pennlabs/office-hours-queue/branch/master/graph/badge.svg)](https://codecov.io/gh/pennlabs/office-hours-queue)
 
 This repo contains an office hour queue.
+## TLDR
+```
+superuser admin
+password admin
+
+
+pipenv shell # activate python env
+sudo docker-compose up  # backend, before doing any manage.py  command
+python manage.py runserver 8000
+
+
+sudo docker build -t frontend . # build frontend image 
+sudo docker run -dp 3000:3000  frontend # run frontend container 
+```
 
 ## Setting up your development environment
 
