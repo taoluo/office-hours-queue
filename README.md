@@ -5,6 +5,8 @@
 
 This repo contains an office hour queue.
 ## TLDR
+Python 3.7 
+node 14
 ```
 superuser admin
 password admin
@@ -22,8 +24,6 @@ yarn dev
 
 sudo docker build -t frontend . # build frontend image 
 sudo docker run -dp 3000:3000  frontend # run frontend container 
-
-
 
 
 ```
